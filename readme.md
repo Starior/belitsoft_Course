@@ -7,11 +7,17 @@
 ## HW01. Знакомство с тегами HTML
 Сделать html-разметку по образцу
 
+[Finished Page](https://starior.github.io/belitsoft_Course/HW01/index.html)
+
 ## HW02. Таблицы
 Сделать html-разметку таблицы по образцу. В заголовок таблицы картинки-цветочки добавлять НЕ нужно. 
 
+[Finished Page](https://starior.github.io/belitsoft_Course/HW02/index.html)
+
 ## HW03. Знакомство с основными свойствами CSS
 Выполнить согласно заданию.
+
+[Finished Page](https://starior.github.io/belitsoft_Course/HW03/index.html)
 
 ## HW04. Блочная модель верстки
 Сделать html-разметку [макета](https://www.figma.com/file/QHlzXGVZh1J0m7XySRkRb2/belitsoft-HW04_Lemon)
@@ -29,10 +35,14 @@
 - Добавить кнопку-стрелку, ведущую всегда на верх страницы. Кнопка должна быть в правом нижнем углу и не прокручиваться.
 - Сделать для второго пункта меню выпадающее сабменю на 3-4 пункта, оформить на свой вкус
 
+[Finished Page (HW04-HW06)](https://starior.github.io/belitsoft_Course/HW04-HW06/index.html)
+
 ## HW07. Верстка макета (блочная модель)
 1. Сделать фиксированную верстку макета с использованием блочной модели
 2. Кто уверенно освоил материал и чувствует в себе силы для новых испытаний, может попробовать сделать отзывчивую верстку, т.е. задавать размеры не в пикселях, а в процентах (это касается ширины)
 3. [Макет](https://www.figma.com/file/PmlVCACDkfFXnsHcJbZ0qU/belitsoft-HW07-MMG)
+
+[Finished Page](https://starior.github.io/belitsoft_Course/HW07/index.html)
 
 ## HW08. Что такое GIT и для чего он нужен. Работа с формами HTML
 - https://tproger.ru/translations/difference-between-git-and-github/
@@ -54,6 +64,8 @@
 3. Сделать отзывчивую верстку на Flexbox макета [#Frame2](https://www.figma.com/file/MzVWyx61C5H5U0pNO9KIdC/belitsoft-HW10-ResponsiveLayout). 
 Хедер должен быть отдельным блоком, не входящим в 'content-top'.
 Подсказка: хедер расположить в нужном месте позиционированием.
+
+[Finished Page](https://starior.github.io/belitsoft_Course/HW10/index0.html)
 
 ## HW11.1. Верстка на Flexbox и SCSS
 1. Почитать про SCSS (материалы по ссылке)
@@ -84,6 +96,8 @@
 Сделать адаптивную верстку макета, постараться выделить визуально одинаковые блоки и сделать их глобальными элементами (как мы делали с кнопками).
 
 [Макет](https://www.figma.com/file/UvnvsYwUKAVa0MPg0VTz0s/belitsoft-HW11-Berlin)
+
+[Finished Page](https://starior.github.io/belitsoft_Course/HW11/index.html)
 
 # JavaScript
 
@@ -317,7 +331,6 @@ https://www.youtube.com/watch?v=TEeKr2ON66A&t=15s
 # HTML-CSS-JS-project
 
 ## HW21
-[GitHub Pages](https://starior.github.io/HTML-CSS-JS-project_for_belitsoft/)
 
 ТЗ (техническое задание) по верстке: 
 - Адаптивная верстка
@@ -337,6 +350,8 @@ https://www.youtube.com/watch?v=TEeKr2ON66A&t=15s
 - Также должны быть показаны все элементы (вся информация) при нажатии на галочку (мини view all).
 
 [Layout on Figma](https://www.figma.com/file/k8WLHJBkbZatuCgHXnPY5j/Student-Project)
+
+[Finished Page](https://starior.github.io/belitsoft_Course/HW21_Project_HTML-CSS-JS/index.html)
 
 # Node.js
 
