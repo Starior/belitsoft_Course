@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+  <title>Знакомство с таблицами</title>
+  <style>
+    body {
+      background-color: #F5F1F8;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+    }
+    
+    table {
+      width: 700px;
+    }
+    
+    table,
+    th,
+    td {
+      border: 1px solid #6ad3c3de;
+      background-color: #DEEFFA;
+      border-collapse: collapse;
+      padding: 6px 12px 5px 8px;
+      line-height: 110%;
+    }
+    
+    th {
+      line-height: 110%;
+      padding: 6px 18px 5px 9px;
+    }
+    
+    td {
+      font-size: 13px;
+    }
+    
+    caption {
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      font-weight: bold;
+      color: #FACC2E;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #a8936d;
+      line-height: 170%;
+    }
+    
+    .star {
+      color: #92E4CD;
+    }
+    
+    .left-th {
+      text-align: left;
+    }
+    
+    .top-th {
+      line-height: 180%;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>
+      <span class="star">❋</span> Меню ресторана "Ромашка" <span class="star">❋</span>
+    </caption>
+    <thead>
+      <tr>
+        <th rowspan="2" class="left-th">Кухня</th>
+        <th colspan="2" class="top-th">Холодные блюда</th>
+        <th colspan="2">Горячие блюда</th>
+        <th rowspan="2">Десерты</th>
+      </tr>
+      <tr>
+        <th>Салаты</th>
+        <th>Закуски</th>
+        <th>Первые блюда</th>
+        <th>Вторые блюда</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3" class="left-th">Русская</th>
+        <td>Винегрет</td>
+        <td>Язык с хреном</td>
+        <td>Щи с квашеной капустой</td>
+        <td>Варенники с картошкой</td>
+        <td>Печеные яблоки с медом</td>
+      </tr>
+      <tr>
+        <td>Оливье</td>
+        <td>Студень говяжий</td>
+        <td>Рассольник домашний</td>
+        <td>Караси запеченые в сметане</td>
+        <td>Блинчатый пирог</td>
+      </tr>
+      <tr>
+        <td>Сельдь под "шубой"</td>
+        <td>Судак заливной</td>
+        <td>Мясная солянка</td>
+        <td>Котлеты "Пожарские"</td>
+        <td>Пирожное "Картошка"</td>
+      </tr>
+      <tr>
+        <th rowspan="3" class="left-th">Испанская</th>
+        <td>Севиче из гребешков</td>
+        <td>Эмпанадас</td>
+        <td>Хлебный суп с чесноком</td>
+        <td>Паэлья с морепродуктами</td>
+        <td>Чуррос</td>
+      </tr>
+      <tr>
+        <td>Тимбал из авокадо и тунца</td>
+        <td>Ахотомате</td>
+        <td>Астурийская фабада</td>
+        <td>Свиное раксо</td>
+        <td>Альмойшавена</td>
+      </tr>
+      <tr>
+        <td>Фасоль с ветчиной</td>
+        <td>Чанфайна</td>
+        <td>Рыбный суп с манными клецками</td>
+        <td>Тортилья картофельная</td>
+        <td>Бунуэлос</td>
+      </tr>
+      <tr>
+        <th rowspan="3" class="left-th">Французская</th>
+        <td>Вогезский салат</td>
+        <td>Рийет из курицы</td>
+        <td>Баклажанный крем-суп "Ренуар"</td>
+        <td>Картофель огратен</td>
+        <td>Бриоши</td>
+      </tr>
+      <tr>
+        <td>Салат "Панзанелла"</td>
+        <td>Делисьез из сыра</td>
+        <td>Французский тыквенный суп</td>
+        <td>Гратин из птицы</td>
+        <td>Лигурийский лимонный пирог</td>
+      </tr>
+      <tr>
+        <td>Тар-тар</td>
+        <td>Маринованный лосось</td>
+        <td>Суп "Конти"</td>
+        <td>Тартифлетт</td>
+        <td>Саварен "Триумф"</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

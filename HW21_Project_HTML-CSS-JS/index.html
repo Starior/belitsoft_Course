@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web development project</title>
+</head>
+<body>
+<div class="site-wrapper">
+
+<header class="header" id="masthead">
+  <div class="header__container">
+    <div class="header__logo">
+      <a class="header__logo-img" id="masthead" href="index.html">
+        <img src="img/logo.png" id="header-logo" alt="logo-img">
+      </a>
+      <h3 class="header__title">Web Development Project
+      </h3>
+    </div>
+    <div class="header__menu" id="topMenu">
+      <a href="javascript:void(0);" class="header__menu-button btn-open" id="btnOpen" onclick="openMenu()">
+        <img src="img/menu-button.png" alt="menu-button">
+      </a>
+      <a href="javascript:void(0);" class="header__menu-button" id="btnClose" onclick="openMenu()">
+        <img src="img/menu-button-close.png" alt="menu-button">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__item"><a href="">Home</a></li>
+        <li class="menu__item"><a href="">About</a></li>
+        <li class="menu__item"><a href="">Servicing</a></li>
+        <li class="menu__item"><a href="">Pricing</a></li>
+        <li class="menu__item"><a href="">Team</a></li>
+        <li class="menu__item"><a href="">Blog</a></li>
+        <li class="menu__item"><a href="">Contact us</a></li>
+      </ul>
+    </div>
+
+  </div>
+</header><div class="slide">
+  <div class="slide__container">
+    <h2 class="slide__title">Web development project</h2>
+    <p class="slide__text">Very suitable to support all web development projects</p>
+    <div class="slide__buttons">
+      <input class="slide__button slide__services-button" id="services-button" type="button" value="OUR SERVICES">
+      <input class="slide__button slide__hire-button" id="hire-button" type="button" value="HIRE IS NOW">
+    </div>
+    <a href="" class="slider__arrow">
+      <img src="img/arrow.png" alt="">
+    </a>
+  </div>
+</div><div class="about-us">
+  <div class="about-us__container content-block">
+    <h2 class="content-block__title">About Us</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentAboutUs()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand.png" alt="menu-button" id="btnOpenAboutUs">
+      <img class="arrow-rollup" src="img/arrow-rollup.png" alt="menu-button" id="btnCloseAboutUs">
+    </a>
+    <div class="content-block__content" id="about-us-content">
+      <div class="about-us__blocks">
+        <div class="about-us__block">
+          <img src="img/internet.png" alt="">
+          <h3 class="about-us__block-title">Awesome Icons</h3>
+          <p class="about-us__block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </div>
+        <div class="about-us__block">
+          <img src="img/transfer.png" alt="">
+          <h3 class="about-us__block-title">One Page</h3>
+          <p class="about-us__block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </div>
+        <div class="about-us__block">
+          <img src="img/head.png" alt="">
+          <h3 class="about-us__block-title">Awesome Icons</h3>
+          <p class="about-us__block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div><div class="services">
+  <div class="services__container content-block">
+    <h2 class="content-block__title">Our Services</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentServices()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand.png" alt="menu-button" id="btnOpenServices">
+      <img class="arrow-rollup" src="img/arrow-rollup.png" alt="menu-button" id="btnCloseServices">
+    </a>
+    <div class="content-block__content" id="services-content">
+      <div class="services__blocks" id="services__blocks">
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Research</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Portfolio</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Support</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Documentation</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Development</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Design</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Something</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Something</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+        <div class="services__block">
+          <div class="services__block-top">
+            <img class="services__block-img" src="img/smartphone-black.png" alt="">
+            <h4 class="services__block-title">Something</h4>
+            <p class="services__block-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+          </div>
+
+          <input class="services__block-button" type="button" value="READ MORE">
+        </div>
+      </div>
+      <input class="services__button" id="services__button" type="button" value="VIEW ALL" onclick="expandServices()">
+    </div>
+  </div>
+</div><div class="price">
+  <div class="price__container content-block">
+    <h2 class="content-block__title">Pricing Plan</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentPrice()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand.png" alt="menu-button" id="btnOpenPrice">
+      <img class="arrow-rollup" src="img/arrow-rollup.png" alt="menu-button" id="btnClosePrice">
+    </a>
+    <div class="content-block__content" id="price-content">
+      <div class="price__blocks">
+        <div class="price__block">
+          <div class="top-group">
+            <div class="top-group-in">
+              <h4 class="top-group-title">Free Trail</h4>
+              <div class="top-group-price">
+                <div class="price-numbers">
+                  <p class="currency">$</p>
+                  <p class="value">00</p>
+                </div>
+                <p class="period">per month</p>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="content-block__arrow price-arrow" id="arrowAboutUs" onclick="openPriceFree()">
+              <img class="arrow-expand arrowTrue" src="img/arrow-expand-white.png" alt="menu-button" id="btnOpenPriceFree">
+              <img class="arrow-rollup" src="img/arrow-rollup-white.png" alt="menu-button" id="btnClosePriceFree">
+            </a>
+          </div>
+          <div class="bottom-group" id="benifitsPriceFree">
+            <ul class="bottom-list">
+              <li class="bottom-list-item">30 Free Trail</li>
+              <li class="bottom-list-item">5 Free Projects</li>
+              <li class="bottom-list-item">PHP 5 Enabled</li>
+              <li class="bottom-list-item">24/7 Suports</li>
+            </ul>
+            <input class="price__block-button" type="button" value="Order Now">
+          </div>
+        </div>
+        <div class="price__block">
+          <div class="top-group">
+            <div class="top-group-in">
+              <h4 class="top-group-title">Basic</h4>
+              <div class="top-group-price">
+                <div class="price-numbers">
+                  <p class="currency">$</p>
+                  <p class="value">50</p>
+                </div>
+                <p class="period">per month</p>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="content-block__arrow price-arrow" id="arrowAboutUs" onclick="openPriceBasic()">
+              <img class="arrow-expand arrowTrue" src="img/arrow-expand-white.png" alt="menu-button" id="btnOpenPriceBasic">
+              <img class="arrow-rollup" src="img/arrow-rollup-white.png" alt="menu-button" id="btnClosePriceBasic">
+            </a>
+          </div>
+          <div class="bottom-group" id="benifitsPriceBasic">
+            <ul class="bottom-list">
+              <li class="bottom-list-item">30 Free Trail</li>
+              <li class="bottom-list-item">5 Free Projects</li>
+              <li class="bottom-list-item">PHP 5 Enabled</li>
+              <li class="bottom-list-item">24/7 Suports</li>
+            </ul>
+            <input class="price__block-button" type="button" value="Order Now">
+          </div>
+        </div>
+        <div class="price__block">
+          <div class="top-group">
+            <div class="top-group-in">
+              <h4 class="top-group-title">Ultimates</h4>
+              <div class="top-group-price">
+                <div class="price-numbers">
+                  <p class="currency">$</p>
+                  <p class="value">99</p>
+                </div>
+                <p class="period">per month</p>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="content-block__arrow price-arrow" id="arrowAboutUs" onclick="openPriceUltimates()">
+              <img class="arrow-expand arrowTrue" src="img/arrow-expand-white.png" alt="menu-button" id="btnOpenPriceUltimates">
+              <img class="arrow-rollup" src="img/arrow-rollup-white.png" alt="menu-button" id="btnClosePriceUltimates">
+            </a>
+          </div>
+          <div class="bottom-group" id="benifitsPriceUltimates">
+            <ul class="bottom-list">
+              <li class="bottom-list-item">30 Free Trail</li>
+              <li class="bottom-list-item">5 Free Projects</li>
+              <li class="bottom-list-item">PHP 5 Enabled</li>
+              <li class="bottom-list-item">24/7 Suports</li>
+            </ul>
+            <input class="price__block-button" type="button" value="Order Now">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div><div class="team">
+  <div class="team__container content-block">
+    <h2 class="content-block__title">Our Team Member</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentTeam()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand.png" alt="menu-button" id="btnOpenTeam">
+      <img class="arrow-rollup" src="img/arrow-rollup.png" alt="menu-button" id="btnCloseTeam">
+    </a>
+    <div class="content-block__content" id="team-content">
+      <div class="team__blocks" id="team__blocks">
+        <div class="team__block">
+          <img src="img/man-1.png" alt="" class="team__image">
+          <h3 class="team__member-name">John Doe</h3>
+          <p class="team__member-position">General Manager</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-2.png" alt="" class="team__image">
+          <h3 class="team__member-name">Alexa Biru</h3>
+          <p class="team__member-position">Office Director</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-3.png" alt="" class="team__image">
+          <h3 class="team__member-name">Ronobir Sing</h3>
+          <p class="team__member-position">Admin</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-4.png" alt="" class="team__image">
+          <h3 class="team__member-name">John Doe</h3>
+          <p class="team__member-position">General Manager</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-5.png" alt="" class="team__image">
+          <h3 class="team__member-name">Alexa Biru</h3>
+          <p class="team__member-position">Office Director</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-6.png" alt="" class="team__image">
+          <h3 class="team__member-name">Ronobir Sing</h3>
+          <p class="team__member-position">Admin</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="team__block">
+          <img src="img/man-7.png" alt="" class="team__image">
+          <h3 class="team__member-name">John Doe</h3>
+          <p class="team__member-position">General Manager</p>
+          <div class="team__member-socials">
+            <a href="">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/chat-icon.png" alt="">
+            </a>
+            <a href="">
+              <img src="img/dribble-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="team__sliders">
+        <input class="team__slider-button unhide team__slider-button-active" type="button" value="" onclick="nextPage(0)" focus>
+        <input class="team__slider-button unhide" type="button" value="" onclick="nextPage(1)">
+        <input class="team__slider-button unhide" type="button" value="" onclick="nextPage(2)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(3)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(4)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(5)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(6)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(7)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(8)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(9)">
+        <input class="team__slider-button" type="button" value="" onclick="nextPage(10)">
+
+      </div>
+    </div>
+
+  </div>
+</div><div class="blog">
+  <div class="blog__container content-block">
+    <h2 class="content-block__title">Blog</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentBlog()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand.png" alt="menu-button" id="btnOpenBlog">
+      <img class="arrow-rollup" src="img/arrow-rollup.png" alt="menu-button" id="btnCloseBlog">
+    </a>
+    <div class="content-block__content" id="blog-content">
+      <div class="blog__blocks" id="blog__blocks">
+        <div class="blog__block">
+          <img src="img/image-1.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>SEO Quis Vestibulum</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">14.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+        <div class="blog__block">
+          <img src="img/image-2.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>SEO Quis Vestibulum</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">14.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+        <div class="blog__block">
+          <img src="img/image-3.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>SEO Quis Vestibulum</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">14.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+        <div class="blog__block">
+          <img src="img/image-1.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>Fourth news</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">13.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+        <div class="blog__block">
+
+          <img src="img/image-2.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>Fifth news</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">11.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+        <div class="blog__block">
+          <img src="img/image-3.png" alt="" class="blog__image">
+          <div class="blog__block-preview">
+            <a href="" class="blog__block-title">
+              <h3>Sixth news</h3>
+            </a>
+            <div class="blog__block-info">
+              <div class="date">
+                <img src="img/calendar-icon.png" alt="" class="date-image">
+                <p class="date-text">09.07.2017</p>
+              </div>
+              <div class="theme">
+                <img src="img/doc-icon.png" alt="" class="theme-image">
+                <p class="theme-text">Development</p>
+              </div>
+            </div>
+            <p class="blog__block-text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+          </div>
+        </div>
+      </div>
+      <input class="blog__button" id="blog__button" type="button" value="More VIEW" onclick="expandBlog()">
+    </div>
+  </div>
+</div><div class="contact">
+  <div class="contact__container content-block">
+    <h2 class="content-block__title">Contact Us</h2>
+    <p class="content-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <a href="javascript:void(0);" class="content-block__arrow" id="arrowAboutUs" onclick="openContentContact()">
+      <img class="arrow-expand arrowTrue" src="img/arrow-expand-white.png" alt="menu-button" id="btnOpenContact">
+      <img class="arrow-rollup" src="img/arrow-rollup-white.png" alt="menu-button" id="btnCloseContact">
+    </a>
+    <div class="content-block__content" id="contact-content">
+      <div class="contact__group">
+        <div href="" class="contact__adress contact__group-item">
+          <div class="contact__icon">
+            <img class="contact__adress-icon" src="img/adress-icon.png" alt="">
+          </div>
+          <p class="contact__adress-text">Nobinagar savar, Dhaka Bangladesh
+          </p>
+        </div>
+        <div href="" class="contact__phone contact__group-item">
+          <div class="contact__icon">
+            <img class="contact__phone-icon" src="img/phone-icon.png" alt="">
+          </div>
+          <p class="contact__phone-text">+8801743331996 +8801928737807
+          </p>
+        </div>
+        <div href="" class="contact__email contact__group-item">
+          <div class="contact__icon">
+            <img class="contact__email-icon" src="img/email-icon.png" alt="">
+          </div>
+          <p class="contact__email-text">quickmasud@gmail.com quickmasud@yahoo.com
+          </p>
+        </div>
+      </div>
+      <form action="" class="contact__form">
+        <div class="contact__forms">
+          <div class="contact__form-left">
+            <input class="contact__form-input" type="text" placeholder="YOUR NAME" required id="name" />
+            <input class="contact__form-input" type="email" placeholder="YOUR Email" required id="email" />
+            <input class="contact__form-input" type="tel" placeholder="Your Phone" required id="phone" />
+          </div>
+          <div class="contact__form-right">
+            <textarea class="contact__form-input contact__text-area" type="text" placeholder="Write Message" required id="text"></textarea>
+          </div>
+        </div>
+        <input class="contact__form-button" type="submit" value="SEND" onmouseover="contactMouseOverBtn(this)">
+      </form>
+    </div>
+
+  </div>
+</div><footer class="footer">
+  <div class="footer__container">
+    <div class="footer__menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="">Home</a></li>
+        <li class="menu__item"><a href="">About</a></li>
+        <li class="menu__item"><a href="">Servicing</a></li>
+        <li class="menu__item"><a href="">Pricing</a></li>
+        <li class="menu__item"><a href="">Team</a></li>
+        <li class="menu__item"><a href="">Blog</a></li>
+        <li class="menu__item"><a href="">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="footer__site-sign">
+      <p class="footer__text-copyright">All rights Reserved © 2017</p>
+      <div class="footer__socials">
+        <a class="footer__link-google" href="">
+          <img src="img/google-icon-grey.png" alt="google logo"></a>
+        <a class="footer__link-twitter" href="">
+          <img src="img/twitter-icon-grey.png" alt="twitter logo"></a>
+        <a class="footer__link-fb" href="">
+          <img src="img/fb-icon-grey.png" alt="facebook logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>

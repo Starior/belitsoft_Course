@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+div {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.ul_1 li,
+.ul_1 li a {
+  list-style: disc outside;
+  color: #1C00FB;
+}
+
+.ul_1 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.ul_2 li a {
+  display: inline-block;
+  width: 200px;
+  color: #1C00FB;
+  border: 1px solid #1C00FB;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.ul_2 li a:hover {
+  font-weight: 700;
+}
+
+.ul_3 li a {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #484848;
+  background-color: #484848;
+  color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.ul_3 li a:hover {
+  background-color: white;
+  color: #484848;
+}
+
+.ul_4 li a {
+  display: block;
+  width: 200px;
+  border: 1px solid #2882E4;
+  background-color: #2882E4;
+  color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.ul_4 li a:hover {
+  display: block;
+  background-color: white;
+  color: #1C00FB;
+  background: url(../images/plane_top.png) 160px center no-repeat;
+}
+
+.ul_5 li,
+.ul_6 li,
+.ul_7 li,
+.ul_8 li {
+  display: inline-block;
+}
+
+.ul_5 li a,
+.ul_6 li a {
+  border: 1px solid #2636A2;
+  color: #1C00FB;
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.ul_5 li a:hover {
+  color: red;
+}
+
+.ul_6 li a:hover {
+  border: 1px solid #212121;
+  color: white;
+  background-color: #484848;
+}
+
+.ul_7 ul a {
+  display: inline-block;
+  width: 90px;
+  height: 64px;
+  font-size: 14px;
+  padding-top: 42px;
+  text-align: center;
+  color: #CBCBCB;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+
+.ul_7 ul a:hover {
+  color: #2F9AFC;
+}
+
+.ul_7 li:nth-child(1) a {
+  background: url('../images/air tickets.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(1) a:hover {
+  background: url('../images/air tickets_hover.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(2) a {
+  background: url('../images/charters.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(2) a:hover {
+  background: url('../images/charters_hover.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(3) a {
+  background: url('../images/train tickets.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(3) a:hover {
+  background: url('../images/train tickets_hover.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(4) a {
+  background: url('../images/hotels.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(4) a:hover {
+  background: url('../images/hotels_hover.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(5) a {
+  background: url('../images/tourism.png') center 10px no-repeat;
+}
+
+.ul_7 li:nth-child(5) a:hover {
+  background: url('../images/tourism_hover.png') center 10px no-repeat;
+}
+
+.ul_8 ul {
+  width: 800px;
+  height: 27px;
+  background-color: #F79B1C;
+}
+
+.ul_8 ul a {
+  width: 90px;
+  line-height: 27px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #F79B1C;
+  padding: 5px;
+}
+
+.ul_8 ul a:hover {
+  background-color: red;
+}

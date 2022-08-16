@@ -1,0 +1,17 @@
+form {
+  border: 2px solid red;
+  width: 600px;
+  margin: 0 auto;
+}
+
+div {
+  margin: 20px 50px;
+}
+
+div span {
+  margin-right: 7px;
+}
+
+fieldset {
+  display: block;
+}
