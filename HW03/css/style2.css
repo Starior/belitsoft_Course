@@ -1,0 +1,86 @@
+body {
+  background-color: #E8E8E8;
+}
+
+.list1 ul,
+.list2 ul {
+  display: inline-block;
+  padding-left: 200px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #273d46;
+}
+
+.list1 ul li,
+.list2 ul li {
+  list-style-image: url(../images/check-mark_blue.png);
+}
+
+.list1 ul li:nth-child(1) {
+  text-decoration: line-through;
+}
+
+.list1 ul li:nth-child(2) {
+  font-weight: 650;
+}
+
+.list1 ul li:nth-child(3) {
+  font-style: italic;
+}
+
+.list1 ul li:nth-child(4) {
+  text-transform: uppercase;
+}
+
+.list2 ul li:hover {
+  list-style-image: url(../images/check-mark_red.png);
+  color: #d55a5a;
+}
+
+.buttons {
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  /* background-color: #80b7b3; */
+  background: url(../images/arrow.png) 113px center no-repeat #80b7b3;
+  border-radius: 15px 15px;
+  text-align: left;
+}
+
+button span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 17px;
+}
+
+button:hover {
+  background-color: #3a5856;
+}
+
+button:active {
+  background-color: #818181;
+}
+
+.textareas {
+  padding-left: 200px;
+  padding-top: 30px;
+}
+
+textarea {
+  width: 150px;
+  height: 40px;
+  resize: none;
+  border: 1px solid #c2c2c2;
+}
+
+textarea:focus {
+  border: 1px solid #7fbed5;
+  box-shadow: 0px 0px 20px #7fbed5;
+}

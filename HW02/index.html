@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+  <title>Introduction to Tables</title>
+  <style>
+    body {
+      background-color: #F5F1F8;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+    }
+    
+    table {
+      width: 700px;
+    }
+    
+    table,
+    th,
+    td {
+      border: 1px solid #6ad3c3de;
+      background-color: #DEEFFA;
+      border-collapse: collapse;
+      padding: 6px 12px 5px 8px;
+      line-height: 110%;
+    }
+    
+    th {
+      line-height: 110%;
+      padding: 6px 18px 5px 9px;
+    }
+    
+    td {
+      font-size: 13px;
+    }
+    
+    caption {
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      font-weight: bold;
+      color: #FACC2E;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #a8936d;
+      line-height: 170%;
+    }
+    
+    .star {
+      color: #92E4CD;
+    }
+    
+    .left-th {
+      text-align: left;
+    }
+    
+    .top-th {
+      line-height: 180%;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>
+      <span class="star">❋</span> Restaurant menu "Chamomile" <span class="star">❋</span>
+    </caption>
+    <thead>
+      <tr>
+        <th rowspan="2" class="left-th">Cuisine</th>
+        <th colspan="2" class="top-th">Cold dishes</th>
+        <th colspan="2">Hot dishes</th>
+        <th rowspan="2">Desserts</th>
+      </tr>
+      <tr>
+        <th>Salads</th>
+        <th>Starters</th>
+        <th>First courses</th>
+        <th>Main courses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3" class="left-th">Russian</th>
+        <td>Vinegret</td>
+        <td>Tongue with horseradish</td>
+        <td>Shchi with sauerkraut</td>
+        <td>Varenyky with potato</td>
+        <td>Baked apples with honey</td>
+      </tr>
+      <tr>
+        <td>Olivier</td>
+        <td>Beef aspic</td>
+        <td>Home-style rassolnik</td>
+        <td>Baked crucian in sour cream</td>
+        <td>Blini pie</td>
+      </tr>
+      <tr>
+        <td>Herring under a fur coat</td>
+        <td>Jellied pike-perch</td>
+        <td>Meat solyanka</td>
+        <td>Pozharsky cutlets</td>
+        <td>Potato cake (dessert)</td>
+      </tr>
+      <tr>
+        <th rowspan="3" class="left-th">Spanish</th>
+        <td>Scallop ceviche</td>
+        <td>Empanadas</td>
+        <td>Garlic bread soup</td>
+        <td>Seafood paella</td>
+        <td>Churros</td>
+      </tr>
+      <tr>
+        <td>Avocado and tuna timbale</td>
+        <td>Ajotomate</td>
+        <td>Asturian fabada</td>
+        <td>Pork raxo</td>
+        <td>Almojabanas</td>
+      </tr>
+      <tr>
+        <td>Beans with ham</td>
+        <td>Chanfaina</td>
+        <td>Fish soup with semolina dumplings</td>
+        <td>Potato tortilla</td>
+        <td>Buñuelos</td>
+      </tr>
+      <tr>
+        <th rowspan="3" class="left-th">French</th>
+        <td>Vosges salad</td>
+        <td>Chicken rillettes</td>
+        <td>Eggplant cream soup "Renoir"</td>
+        <td>Potato gratin</td>
+        <td>Brioches</td>
+      </tr>
+      <tr>
+        <td>Panzanella salad</td>
+        <td>Cheese delicacies</td>
+        <td>French pumpkin soup</td>
+        <td>Poultry gratin</td>
+        <td>Ligurian lemon pie</td>
+      </tr>
+      <tr>
+        <td>Steak tartare</td>
+        <td>Marinated salmon</td>
+        <td>Conti soup</td>
+        <td>Tartiflette</td>
+        <td>Savarin "Triumph"</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
